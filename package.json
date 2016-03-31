@@ -1,0 +1,23 @@
+{
+  "name": "raw-js-loader",
+  "version": "1.0.0",
+  "description": "Webpack loader",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dqaria/raw-js-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "fs",
+    "copy",
+    "filesystem"
+  ],
+  "author": "dqaria https://github.com/dqaria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dqaria/raw-js-loader"
+  },
+  "homepage": "https://github.com/dqaria/raw-js-loader",
+}
