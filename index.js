@@ -9,7 +9,7 @@ module.exports = function(content, map) {
   this.value = map.sourcesContent[0];
 
   var sourceCode = map.sourcesContent[0];
-  var highlightedCode = hljs.highlightAuto(sourceCode).value;
+  var highlightedCode = hljs.highlight('javascript', sourceCode).value;
 
   return "module.exports = " + JSON.stringify(highlightedCode);
 }
