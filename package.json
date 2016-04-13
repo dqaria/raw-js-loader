@@ -1,6 +1,6 @@
 {
   "name": "raw-js-loader",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Webpack loader",
   "main": "index.js",
   "repository": {
@@ -20,4 +20,7 @@
     "url": "https://github.com/dqaria/raw-js-loader"
   },
   "homepage": "https://github.com/dqaria/raw-js-loader",
+  "dependencies": {
+    "highlight.js": "~9.3.0"
+  }
 }
